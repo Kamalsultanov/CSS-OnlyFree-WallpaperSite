@@ -1,0 +1,54 @@
+body{
+    background: url(../IMG/about-bg.jpg) 55%/cover;
+    position: relative; 
+    height: 90vh;
+    text-align: center;
+    color: white;
+}
+header{
+    height: 100px;
+    margin: 20px;
+}
+#navbar li{
+    font: bold 2em "Comfortaa", sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin: 30px 60px;
+    cursor: pointer;
+}
+#navbar li a{
+    padding: 15px;
+}
+#navbar li a:hover{
+    border: solid white 1px;
+    border-radius: 30px;
+}
+#container{
+    margin:100px auto;
+    width: 90%;
+    border: solid white 0.2px;
+}
+#imagecont{
+    width: 50%;
+    display: inline-block;
+    margin: 30px ;   
+}
+img{ width: 290px;
+    margin-right: 200px;
+}
+article{
+    display: inline-block;
+    width: 40%;
+}
+article h2{
+    font: bold 2em "Comfortaa", sans-serif;
+    margin-bottom:30px;
+}
+article p{
+    font: bold 1.28em "Comfortaa", sans-serif;
+    text-align: justify;
+}
+footer p{
+    margin-top: 110px;
+    font: bold 0.8em Arial ;
+}

@@ -1,0 +1,45 @@
+body{
+    background: url(../IMG/main-bg.jpg) 55%/cover;
+    position: relative; 
+    height: 90vh;
+    text-align: center;
+    color: white;
+}
+header{
+    height: 100px;
+    margin: 20px;
+}
+#navbar li{
+    font: bold 2em "Comfortaa", sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin: 30px 60px;
+    cursor: pointer;
+}
+#navbar li a{
+    padding: 15px;
+}
+#navbar li a:hover{
+    border: solid white 1px;
+    border-radius: 30px;
+}
+main h2{
+    margin-top: 40vh;
+    font: bold 7em "Playwrite ES";
+}
+main h4{
+    font:  1.2em "Comfortaa", sans-serif;
+    margin-top: 40px;
+}
+footer p{
+    margin-top: 110px;
+    font: bold 0.8em Arial ;
+}
+@media only screen and (min-width: 768px){
+    main h2{
+        margin-top: 20vh;
+    }
+    main h4{
+        font:  1.5em "Comfortaa", sans-serif;
+    }
+}
